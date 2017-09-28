@@ -31,6 +31,7 @@ class Song
       end
 
     end
+    temp_hash
   end
 
 
