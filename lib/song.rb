@@ -27,9 +27,7 @@ class Song
         temp_array << artist
       end
     end
-
     temp_array
-    
   end
 
   def self.genres
