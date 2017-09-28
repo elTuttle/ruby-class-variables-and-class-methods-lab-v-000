@@ -31,7 +31,13 @@ class Song
   end
 
   def self.genres
-    @@genres
+    temp_array = []
+    @@genres.each do |genre|
+      if !temp_array.include?(genre)
+        temp_array << genre
+      end
+    end
+    temp_array
   end
 
   def self.genre_count
